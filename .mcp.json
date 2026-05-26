@@ -3,7 +3,10 @@
     "school-activities": {
       "type": "stdio",
       "command": "python",
-      "args": ["-m", "mcp_servers.school_activities_server"]
+      "args": ["-m", "mcp_servers.school_activities_server"],
+      "env": {
+        "ACTIVITIES_DATA": "${workspaceFolder}/app/backend/data/activities.json"
+      }
     }
   }
 }
