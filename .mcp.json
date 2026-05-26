@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "school-activities": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "mcp_servers.school_activities_server"]
+    }
+  }
+}
